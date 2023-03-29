@@ -46,13 +46,6 @@
 		        		@endif
 		        	</div>
 					<div class="form-group mb-3">
-		        		<label><b>Vistor Address</b></label>
-		        		<textarea  name="visitor_address"  class="form-control"> {{ old('visitor_address') }} </textarea>
-		        		@if($errors->has('visitor_address'))
-		        			<span class="text-danger">{{ $errors->first('visitor_address') }}</span>
-		        		@endif
-		        	</div>
-					<div class="form-group mb-3">
 		        		<label><b>Department</b></label>
 		        		<select name="visitor_department" id="visitor_department" class="form-control" required>
 							<option value="" selected>Select Department</option>
@@ -80,7 +73,7 @@
 		        	</div>
 		        	 
 		        	<div class="form-group mb-3">
-		        		<input type="submit" class="btn btn-primary" value="Add Vistor" />
+		        		<input type="submit" class="btn btn-primary" value="Add visitor" />
 		        	</div>
 				</form>
 			</div>

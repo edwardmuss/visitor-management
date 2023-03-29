@@ -20,8 +20,7 @@
 
 				<div class="col-lg-3 col-sm-6">
 					<div class="circle-tile ">
-						<a href="#"><div class="circle-tile-heading dark-blue"><i class="fa fa-users fa-fw fa-3x"></i></div></a>
-						<div class="circle-tile-content dark-blue">
+						<div class="circle-tile-content bg-red">
 							<div class="circle-tile-description text-faded"> Total Today Visitors</div>
 							<div class="circle-tile-number text-faded ">{{$today}}</div>
 							{{-- <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a> --}}
@@ -31,8 +30,7 @@
 					
 				<div class="col-lg-3 col-sm-6">
 					<div class="circle-tile ">
-						<a href="#"><div class="circle-tile-heading red"><i class="fa fa-circle fa-fw fa-3x"></i></div></a>
-						<div class="circle-tile-content red">
+						<div class="circle-tile-content bg-dark">
 							<div class="circle-tile-description text-faded"> Total Yesterday Visitors </div>
 							<div class="circle-tile-number text-faded ">{{$yesterday}}</div>
 							{{-- <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a> --}}
@@ -42,8 +40,7 @@
 
 				<div class="col-lg-3 col-sm-6">
 					<div class="circle-tile ">
-						<a href="#"><div class="circle-tile-heading purple"><i class="fa fa-cog fa-fw fa-3x"></i></div></a>
-						<div class="circle-tile-content purple">
+						<div class="circle-tile-content bg-red">
 							<div class="circle-tile-description text-faded"> Total Last 7 days Visitors </div>
 							<div class="circle-tile-number text-faded ">{{$week}}</div>
 							{{-- <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a> --}}
@@ -53,8 +50,7 @@
 				
 				<div class="col-lg-3 col-sm-6">
 					<div class="circle-tile ">
-						<a href="#"><div class="circle-tile-heading green"><i class="fa fa-user fa-fw fa-3x"></i></div></a>
-						<div class="circle-tile-content green">
+						<div class="circle-tile-content bg-dark">
 							<div class="circle-tile-description text-faded"> Total Last 30 days Visitors </div>
 							<div class="circle-tile-number text-faded ">{{$month}}</div>
 							{{-- <a class="circle-tile-footer" href="#">More Info<i class="fa fa-chevron-circle-right"></i></a> --}}
